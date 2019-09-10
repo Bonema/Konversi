@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:text="About"
+    tools:context="com.example.konversimatauang.MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-40dp"
+        android:typeface="monospace"
+        android:text="Kelompok 6"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/gambar1"
+        android:layout_width="108dp"
+        android:layout_height="114dp"
+        android:layout_gravity="top"
+        android:layout_marginTop="10dp"
+        android:background="#00FF00"
+        android:src="@drawable/woman" />
+
+    <TextView
+        android:id="@+id/neng"
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_toRightOf="@+id/gambar1"
+        android:background="#00FF00"
+        android:text="Meria Nensi
+                      1717051015"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/gambar2"
+        android:layout_width="108dp"
+        android:layout_height="114dp"
+        android:layout_below="@+id/gambar1"
+        android:layout_gravity="top"
+        android:layout_marginTop="30dp"
+        android:background="#D2691E"
+        android:src="@drawable/boy" />
+
+    <TextView
+        android:id="@+id/bonema"
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        android:layout_below="@+id/gambar1"
+        android:layout_gravity="center"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="5dp"
+        android:layout_toRightOf="@+id/gambar2"
+        android:background="#D2691E"
+        android:text="Bonema Tri Prasetyo
+                      1717051017"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/gambar3"
+        android:layout_width="108dp"
+        android:layout_height="114dp"
+        android:layout_below="@+id/gambar2"
+        android:layout_gravity="top"
+        android:layout_marginTop="30dp"
+        android:background="#00BFFF"
+        android:src="@drawable/girl" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        android:layout_below="@+id/gambar2"
+        android:layout_gravity="center"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@+id/gambar3"
+        android:background="#00BFFF"
+        android:text="Cahyani Ramadhani
+                      1717051033"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/btn_activity_main_pindah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gambar3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/back"
+        android:onClick="Back" />
+
+</RelativeLayout>
